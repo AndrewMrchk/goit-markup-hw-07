@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-06-index.html</title>
-    <link
+    <title>goit-markup-hw-07-index.html</title>
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&&display=swap"
       rel="stylesheet"
     />
@@ -15,8 +15,8 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="container header-wrapper">
@@ -445,23 +445,25 @@
         </div>
         <div class="column-three">
           <b>Подпишитесь на рассылку</b>
-          <div class="subscribe-section">
-            <div class="input">
-              <input
-                class="subscribe-input"
-                type="email"
-                placeholder=" Email"
-                name="#"
-                id="#"
-              />
+          <form action="#">
+            <div class="subscribe-section">
+              <div class="input">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  id="#"
+                />
+              </div>
+              <button type="submit" class="accept" href="#">
+                <span>Подписаться</span>
+                <svg class="send" width="24" height="24">
+                  <use href="./img/icon/sprite.svg#send"></use>
+                </svg>
+              </button>
             </div>
-            <button type="submit" class="accept" href="#">
-              <span>Подписаться</span>
-              <svg class="send" width="24" height="24">
-                <use href="./img/icon/sprite.svg#send"></use>
-              </svg>
-            </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -491,8 +493,8 @@
                 </svg>
               </li>
               <li>
-                <label for="tel">Телефон</label>
-                <input type="tel" name="user-telephone" id="tel" />
+                <label for="phone">Телефон</label>
+                <input type="phone" name="phone" id="phone" />
                 <svg
                   class="form-icon"
                   width="18"
@@ -505,8 +507,8 @@
                 </svg>
               </li>
               <li>
-                <label for="mail">Почта</label>
-                <input type="mail" name="user-email" id="mail" />
+                <label for="email">Почта</label>
+                <input type="mail" name="email" id="email" />
                 <svg
                   class="form-icon"
                   width="18"
