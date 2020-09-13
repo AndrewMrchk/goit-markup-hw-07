@@ -1,13 +1,13 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 :root {
@@ -59,8 +59,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0px 15px;
   border-bottom: 1px solid #ececec;
 }
@@ -70,8 +70,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 80px;
 }
 
@@ -105,11 +105,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 294px;
 }
 
@@ -151,8 +151,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contacts .email {
@@ -164,8 +164,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   text-decoration: none;
@@ -205,8 +205,20 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(47, 48, 58, 0.8);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/Header-img.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/Header-img.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(47, 48, 58, 0.4)),
+      to(rgba(47, 48, 58, 0.4))
+    ),
+    url('../img/hero/Header-img.jpg');
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../img/hero/Header-img.jpg');
 }
 
 .hero-overlay {
@@ -218,7 +230,7 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -248,7 +260,7 @@ h1 {
   background-color: var(--hover-logo-color);
   color: var(--white-text-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -270,8 +282,8 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .advantage-list-item {
@@ -314,10 +326,10 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .advantage-item-title {
@@ -394,15 +406,17 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .team-list-item {
   width: 270px;
   padding-bottom: 23px;
   background: var(--white-text-color);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -410,9 +424,11 @@ h1 {
 
 .team-list-item:hover {
   -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 6px 18px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 6px 18px rgba(0, 0, 0, 0.5);
+  transform: scale(1.15);
+  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 6px 18px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 6px 18px rgba(0, 0, 0, 0.5);
 }
 
 .team-list-item:not(:nth-child(4n)) {
@@ -449,8 +465,8 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .social-list-item:not(:last-child) {
@@ -462,11 +478,11 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -493,11 +509,11 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .clients-list-item:not(:last-child) {
@@ -511,13 +527,13 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid var(--text-subtitle-color);
   fill: var(--text-subtitle-color);
@@ -531,7 +547,7 @@ h1 {
   border-color: var(--hover-logo-color);
   cursor: pointer;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .footer {
@@ -544,10 +560,10 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   padding: 60px 15px;
 }
 
@@ -618,9 +634,9 @@ address .contacts-footer:last-child {
   margin-right: 12px;
   padding-left: 12px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 358px;
   height: 50px;
@@ -639,16 +655,16 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   border-style: none;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
@@ -693,7 +709,7 @@ address .contacts-footer:last-child {
 
 .backdrop.is-hidden .modal {
   -webkit-transform: scale(0.9) translate(-50%, -50%);
-          transform: scale(0.9) translate(-50%, -50%);
+  transform: scale(0.9) translate(-50%, -50%);
 }
 
 .modal {
@@ -701,17 +717,20 @@ address .contacts-footer:last-child {
   top: 50%;
   left: 50%;
   -webkit-transform: scale(1) translate(-50%, -50%);
-          transform: scale(1) translate(-50%, -50%);
+  transform: scale(1) translate(-50%, -50%);
   min-width: 350px;
   padding: 40px;
   background-color: var(--white-text-color);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close {
@@ -722,11 +741,11 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   position: absolute;
   top: 8px;
@@ -788,7 +807,7 @@ address .contacts-footer:last-child {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 4px;
   resize: none;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -826,10 +845,10 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 20px auto 30px auto;
   font-family: Roboto;
   font-style: normal;
@@ -852,18 +871,18 @@ address .contacts-footer:last-child {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 2px solid;
   border-radius: 2px;
   height: 16px;
   width: 15px;
   border-color: var(--link-title-color);
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -873,11 +892,11 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: var(--hover-logo-color);
   background-image: url(../img/icon/modal/checked.svg);
   background-repeat: no-repeat;
@@ -886,7 +905,7 @@ address .contacts-footer:last-child {
   background-origin: border-box;
   border-color: var(--hover-logo-color);
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .send-form-btn {
@@ -905,7 +924,7 @@ address .contacts-footer:last-child {
   color: var(--white-text-color);
   background: var(--hover-logo-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0px;
   border-radius: 4px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -951,8 +970,8 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .filter-list-item:not(:last-child) {
@@ -968,7 +987,7 @@ address .contacts-footer:last-child {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .project-list .project-list-item:not(:nth-child(3n)) {
@@ -984,9 +1003,11 @@ address .contacts-footer:last-child {
   width: 370px;
   border: 1px solid #eeeeee;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(255, 103, 103, 0.12);
-          box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(255, 103, 103, 0.12);
+  box-sizing: border-box;
+  -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(255, 103, 103, 0.12);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(255, 103, 103, 0.12);
 }
 
 .project-img-wrapper {
@@ -1010,7 +1031,7 @@ address .contacts-footer:last-child {
   background: rgba(33, 150, 243, 0.9);
   opacity: 0;
   -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1029,7 +1050,7 @@ address .contacts-footer:last-child {
 .project-list-item:hover .project-overlay-box {
   opacity: 1;
   -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .project-name-wrapper {
